@@ -1,0 +1,2 @@
+# MiniPaint
+Projekt na PAM
