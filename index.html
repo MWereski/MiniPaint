@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="p5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+	<div>
+		<input type="text" id="fileName" value="noName">
+		<input type="button" value="Save Canvas" id="saveButton">
+		<input type="button" value="Clear Canvas" id="clearButton">
+		<br />
+		<input type="button" value="Pencil" id="pencilButton">
+		<input type="button" value="Rubber" id="rubberButton">
+		<input type="button" value="Square" id="squareButton">
+		<input type="button" value="Slash" id="slashButton">
+		<input type="button" value="Backslash" id="backSlashButton">
+		<input type="button" value="Spray" id="sprayButton">
+		<input type="button" value="Line" id="lineButton">
+		<br />
+		<input type="button" value="Small Canvas" id="smallButton">
+		<input type="button" value="Medium Canvas" id="mediumButton">
+		<input type="button" value="Big Canvas" id="bigButton">
+	</div>
+	<div>	
+		<input type="range" min="1" max="36" value="2" id="brushSize">
+		
+		<span id="brushSizeLabel">Size: 2</span>
+	</div>
+	<div>
+		<span id="HEX"></span>
+		<input type="number" id="hexIn" min="0" max="360">
+	</div>
+	<div>
+		<span id="SATURATION"></span>
+		<input type="number" id="satIn" min="0" max="100">
+	</div>
+	<div>
+		<span id="VALUE"></span>
+		<input type="number" id="valIn" min="0" max="100">
+	</div>
+	
+	<div>
+		<span id="lupaLAbel">LUPA</span>
+		<input type="checkbox" id="lupa">
+	</div>
+
+  </body>
+</html>
