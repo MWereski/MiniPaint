@@ -7,6 +7,7 @@ let pg, lupePg;
 var brushSizeVal = 2;
 var brushSizeLabel;
 
+
 var hexLabel, saturationLabel, valLabel;
 var hexIn, satIn, valIn;
 
